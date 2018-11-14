@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kotlinbankapi.iml" filepath="$PROJECT_DIR$/kotlinbankapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlinbankapi_main.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlinbankapi_main.iml" group="kotlinbankapi" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/kotlinbankapi_test.iml" filepath="$PROJECT_DIR$/.idea/modules/kotlinbankapi_test.iml" group="kotlinbankapi" />
+    </modules>
+  </component>
+</project>
