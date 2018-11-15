@@ -9,7 +9,14 @@ repositories {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     compile "io.vertx:vertx-web:3.5.4"
+
+    compile "org.jetbrains.kotlin:kotlin-reflect"
+    testCompile "org.jetbrains.kotlin:kotlin-test"
+    testCompile "org.jetbrains.kotlin:kotlin-test-junit"
+    testCompile 'org.junit.jupiter:junit-jupiter-api:5.1.1'
+
 }
+
 compileKotlin {
     kotlinOptions {
         jvmTarget = "1.8"
