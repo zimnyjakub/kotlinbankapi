@@ -110,4 +110,6 @@ hs_err_pid*
 # Vertx cache directory
 .vertx
 
+build/
 # End of https://www.gitignore.io/api/vertx,kotlin,intellij
+
