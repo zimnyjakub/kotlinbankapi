@@ -1,6 +1,6 @@
 # kotlinbankapi
 
-Example web api accounts and transfers using vert.x framework. You will find examples on
+Example web api: accounts and transfers using vert.x framework and kotlin. You will find examples on
 
 * Vert.x integration tests
 * JUnit 5 unit tests
