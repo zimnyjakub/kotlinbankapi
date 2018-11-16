@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zimnyjakub/kotlinbankapi.svg?branch=master)](https://travis-ci.org/zimnyjakub/kotlinbankapi)
+
 # kotlinbankapi
 
 Example web api: accounts and transfers using vert.x framework and kotlin. You will find examples on
