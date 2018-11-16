@@ -8,3 +8,4 @@ Example web api: accounts and transfers using vert.x framework and kotlin. You w
 * Minimal CQRS demonstration using vert.x eventBus
 * Separate web and backend verticles
 * Sample jMeter test
+* Fat jar, no container needed
