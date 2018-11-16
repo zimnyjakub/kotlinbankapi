@@ -10,11 +10,13 @@ import io.vertx.ext.web.Router
 import io.vertx.ext.web.RoutingContext
 
 
-class WebVerticle : AbstractVerticle() {
+class MainVerticle : AbstractVerticle() {
     lateinit var httpServer: HttpServer
     lateinit var eventBus: EventBus
 
     override fun start(startFuture: Future<Void>) {
+        vertx.deployVerticle(BackendVerticle())
+
         eventBus = vertx.eventBus()
         val router = createRouter()
         httpServer = vertx.createHttpServer()
@@ -65,7 +67,7 @@ class WebVerticle : AbstractVerticle() {
                 req.response()
                     .setStatusCode(404)
                     .putHeader("Content-Type", "application/json")
-                    .end(JsonObject().put("error", it.cause()).encodePrettily())
+                    .end(it.result().body().encodePrettily())
         }
 
     }
