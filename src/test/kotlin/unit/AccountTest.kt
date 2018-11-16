@@ -5,8 +5,8 @@ import domain.Currency
 import domain.Money
 import org.junit.Assert
 import org.junit.Ignore
+import org.junit.Test
 import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.Test
 
 class AccountTest {
 
