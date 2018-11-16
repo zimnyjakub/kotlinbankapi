@@ -1,1 +1,0 @@
-const val TRANSFER_MONEY = "domain.transfer.money"

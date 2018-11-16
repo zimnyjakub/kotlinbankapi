@@ -147,8 +147,8 @@ public class MoneyTest {
     //TODO
 //    @Test
 //    fun testIfAllocateMethodWorksAsExpectedOnMoney() {
-//        val money1: domain.Money = domain.Money(100, domain.Currency.PLN())
-//        val money2: domain.Money = domain.Money(100, domain.Currency.PLN())
+//        val money1: domain.Money = domain.Money(100, domain.currency.PLN())
+//        val money2: domain.Money = domain.Money(100, domain.currency.PLN())
 //
 //        Assert.assertEquals(money1, money2)
 //        Assert.assertTrue(money1 == money2)
